@@ -1,0 +1,118 @@
+/* Google fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,400&display=swap');
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.image{
+   
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #4c5e90;
+    padding: 3px;
+     margin-bottom: 10px;
+     margin-top: 20px; 
+}
+.image .profile-img{
+    height: 100%;
+    width:100%;
+    object-fit:cover;
+    border-radius: 50%;
+    border: 3px solid #fff
+}
+.profile-card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#333;
+}
+.text-data .name{
+    font-size: 22px;
+    font-weight: 500;
+}
+.text-data .job{
+    font-size: 15px;
+    font-weight: 400;
+}
+.profile-card .media-buttons{
+    display: flex;
+    align-items:center;
+    margin-top: 15px;
+}
+.media-buttons .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 34px;
+    font-size: 18px;
+    width: 34px;
+    border-radius: 50%;
+    margin:0 8px;
+    text-decoration: none;
+    background-color: #314786;
+}
+.profile-card .buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 25px ;
+}
+.buttons .button{
+color: #fff;
+font-size: 14px;
+font-weight: 400;
+border: none;
+border-radius: 24px;
+margin:0 10px;
+padding: 8px 24px;
+background-color: #314786;
+cursor: pointer;
+}
+.buttons .button:hover{
+    background-color: #3036ea;
+}
+.profile-card .analytics{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.analytics .data{
+    display: flex;
+    align-items: center;
+    color:#333;
+    padding: 0 20px;
+    border-right: 2px solid #e7e7e7;
+}
+.data i{
+font-size: 18px;
+margin-right: 6px;
+
+}
+.data:last-child{
+  border-right: none;
+  
+}
